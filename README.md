@@ -73,7 +73,7 @@ Interacciones entre los procesos
 
 compiten en el sentido en que un dato es de asceso comun, puede que ambos no lean el mismo dato en memoria comun.
 
-##Recursos.
+## Recursos.
 
  +competencia entre procesos.
  +sistema operativo.
