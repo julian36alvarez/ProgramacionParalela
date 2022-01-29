@@ -35,5 +35,53 @@ desde los años 70 se tiene concurrencia,
 
 Porque los lenjuages actuales no facilitan la concurrencia?
 
+Interleaving. single processor
+
+Sistema complejo
+
+Sistema con muchas interacciones.
+
+LImitacion de la programacion concurrente.
+
+el resultado debe ser independiente de la velocidad en la que se computa.
+
+Errores dependiendo del tiempo.
+
+
+Riesgos de los Threads.
+
+Programacion imperativa. fueron creados secuencialmente.
+
+Los threads no forman parte del lenguaje se forman con librerias adicionales por tanto el compilador no sabe ya que el intenta hacerlo en secuencia.
+
+Asembler
+
+## Estrategias concurrentes.
+
+Interacciones entre los procesos
+
++ No interactuan se separan los datos de manera disyunta y se reduce el tiempo.
++ se piensa para un numero abstracto
+
+
+![imagen](https://user-images.githubusercontent.com/31891276/151663695-84c8173f-e5d8-4f29-a960-02cd2dde31fd.png)
+
+
+## Procesos que cooperan directamente.
+
+## Procesos que cooperan indirectamente y tambien compiten.
+
+compiten en el sentido en que un dato es de asceso comun, puede que ambos no lean el mismo dato en memoria comun.
+
+##Recursos.
+
+ +competencia entre procesos.
+ +sistema operativo.
+ 
+
+
+
+
+
 
 
