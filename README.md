@@ -247,3 +247,8 @@ Esperas Activas: Ciclos que hacen nada.
 
 ![image](https://user-images.githubusercontent.com/31891276/155842462-26544f27-7d16-4185-aa24-f293580b781f.png)
 
+
+![image](https://user-images.githubusercontent.com/31891276/155842468-f1f2da06-4c0e-4b24-81d5-6eee42f11f37.png)
+
+
+
