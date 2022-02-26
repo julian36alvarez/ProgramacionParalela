@@ -242,4 +242,8 @@ Los regions no son estructurados desde el puinto de vista de la concurrencia.
 
 Las soluciones con semaforos son altamente desordenadas.
 
-Esperas Activas: Ciclos que hacen nada
+Esperas Activas: Ciclos que hacen nada.
+
+
+![image](https://user-images.githubusercontent.com/31891276/155842462-26544f27-7d16-4185-aa24-f293580b781f.png)
+
