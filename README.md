@@ -194,4 +194,34 @@ Son compartidas concurrentemente.
 ## Livelock:
 
 
+Prologue: Cuuando s e verifica que un porceso puede entrar a la region critica, si no puede entrar queda en cola de espera.
+
+Epilogo: Cuando ya se sale de la region critica entra otro proceso.
+
+Semaforos.
+
+Entero Especial (0-1 O pare 1 siga).
+
+Solo existe tres operaciones.
+
++ Darle un valor inicial.  
++ Incrementarlo.   
++ Decrementarlo.
+
+Como se Implementa
+
+Se dice que es un semaphoro.
+
+se le da un valor inicial 
+
+Incrementar Signal:(P)
+
+Incrementa si se puede 0 o 1
+
+Decremetar Wait(V)
+s:= s-1, if s=1
+
+
+
+
 
