@@ -79,6 +79,44 @@ compiten en el sentido en que un dato es de asceso comun, puede que ambos no lea
  +sistema operativo.
  
 
+## Procesos Disyuntos
+
+Funciona siempre y cuando se puda hacer particion de datos.
+
+Cada proceso corre la misma computacion.
+
+# tema de grado, generar codigo con threds en que se diga la computacion digo los procesos y genere codigo con thread java o pyhon o C .
+
+
+## Paso de mensajes o procesos que cooperan directamente.
+
+Descomposicion apartir de la funcionalidad
+
+Los porcesos trabajan para resolver una tarea tienen yn common task.
+
+cada proceso sabe de la existencia de los otros y sabe con cual comunicarese para obtener la solucion.
+
+depende directamente el uno del otro ya que tienen una interaccion directa.  
+
+los mecanismos de comunicacion entre los procesos es el paso de mensajes  
+
+se pueden catalogar en dos categorias  
+ 
+procesos que producen datos y los envian.  
+y procesos que reciben informacion y la consumen.  
+
+Un proceso en particular puede pertenecer a ambas categorias.  
+
+si se envian grandes cantidades de datos se generan cuellos de botella en memoria o en red es por ello que se envia una porcion discreta delos datos.  
+
+la comunicadion el es nucleo de este sistema de concurrencia.
+
+Sender y Receiver... Origen y destino y obiamente el mensaje y un medio.
+
+![imagen](https://user-images.githubusercontent.com/31891276/155820639-b07aac86-3fa7-4b6b-bd7e-ffc777718791.png)
+
+
+
 
 
 
