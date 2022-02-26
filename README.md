@@ -221,6 +221,16 @@ Incrementa si se puede 0 o 1
 Decremetar Wait(V)
 s:= s-1, if s=1
 
+Los semaforos se encadenan con una cola en el sistema operativo.
+
+Se llama semaforo fuerte si tiene una cola. 
+
+Si tienen una lista se llamam semaforo debil.  
+
+Semaforo multivalor: puden entrar varios procesos ya que se tienen varios recursos; se complica el trabajo del sistema operativo.
+
+Cual seria el valor inical logico para el semaphoro debe ser 1;
+
 
 
 
