@@ -232,6 +232,8 @@ Semaforo multivalor: puden entrar varios procesos ya que se tienen varios recurs
 Cual seria el valor inical logico para el semaphoro debe ser 1;
 
 
+![image](https://user-images.githubusercontent.com/31891276/155841927-4d6f0d52-1f01-4e2f-a529-0b286462b3ee.png)
 
+Signal y wait se sincornizan o se emparejan en el tiempo no en el codigo.
 
 
