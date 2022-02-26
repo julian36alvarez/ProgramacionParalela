@@ -158,4 +158,40 @@ no se pueden usar esos procesos al mismo tiempo.
 
 
 
+## Principio de exclusion multiple
+
+NIngun thread deberia acceder a una variable que este en uso por otro Thread.
+
+Si existe competencia de recurso se debe tener en cuenta y se deben encapsular las variables.
+
+Datos atomicos.
+
+Protocolo para este paradigma es
+
+Reservar el recurso.
+
+use el recurso  
+
+liberelo cuando lo deje de usar.  
+
+Antes de reservar tenemos que esperar que este libre, se aplica para todos los recursos.
+
+
+Se debe declarar si se debe compartir o no la variable, para definir un area.
+
+Compartido y global
+
+Critical region
+
+Cuando el proceso quiere entrar al area definida se debe garantizar que entre en un periodo finito.
+
+Que pasa si tengo mas de una zona compartida?
+
+Son compartidas concurrentemente.
+
+## Deadlock:
+
+## Livelock:
+
+
 
