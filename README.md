@@ -237,3 +237,9 @@ Cual seria el valor inical logico para el semaphoro debe ser 1;
 Signal y wait se sincornizan o se emparejan en el tiempo no en el codigo.
 
 
+
+Los regions no son estructurados desde el puinto de vista de la concurrencia.
+
+Las soluciones con semaforos son altamente desordenadas.
+
+Esperas Activas: Ciclos que hacen nada
