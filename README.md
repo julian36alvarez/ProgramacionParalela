@@ -116,9 +116,45 @@ Sender y Receiver... Origen y destino y obiamente el mensaje y un medio.
 ![imagen](https://user-images.githubusercontent.com/31891276/155820639-b07aac86-3fa7-4b6b-bd7e-ffc777718791.png)
 
 
+Se realiza bajo un area en el sistema operativo que se llama el area de comunucaccion de buffer. o area temporar de almacenamiento.
+
+comunicacion punto a punto
+
+var b: buffer max of T;
+
+el buffer se maneja como una variable;
+
+Un buffer al que no se le da el tamaño se le llama canal. y los proces lo que estan compartiendo son los canales.
+
+el canal debe ser unidereccional. para disminuer los tiempos de espera, exclusivo para enviar, exclusivo para recibir.
+
+los procesos no continuan hasta que se garantiza que se envio el mensaje.
+
+![imagen](https://user-images.githubusercontent.com/31891276/155821069-128e6a26-102f-49be-8cad-bbd1fef67b80.png)
 
 
+# Procesos que coperan Indirectamente.
 
+
+Existen dos maneras de hacerlo.
+
+Son procesos que tienen acceso a variables comunes.
+
+Tienen recursos físicos limitados y existe competencia de los porcesos por este.
+
+Se usa para comunicar datos se hablan atravez del area comun
+para poder compartir esos recursos los procesos se deben sincornizarce es decir se ordenan las operaciones en el tiempo.
+
+
+Competencia entre procesos para acceder al recursos 
+
+son recursos fisicos normalmente sensillos compartidos por procesos concurrentes que compiten por ello.
+
+Basicamente es una coperacion basado en competencia. 
+
+Se espera que los procesos usen los recursos por un periodo finito.
+
+no se pueden usar esos procesos al mismo tiempo. 
 
 
 
